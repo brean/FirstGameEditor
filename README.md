@@ -34,8 +34,3 @@ Verändert die Vorlage wie ihr wollt und macht es zu eurem Spiel 🦸!
 austauschen oder parameter wie die Geschwindigkeit des Spiels verändern oder
 oder neue Level hinzufügen.
 
-## Technical information
-
-Some information if you like to extend this project:
-
-[This page is build using react, see this info page](README_react.md)
