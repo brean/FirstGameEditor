@@ -1,0 +1,19 @@
+{
+  "jump_and_run": "Jump and Run",
+  "jump_and_run_desc": "Ein Spiel bei dem der Spieler von einer Platform zur nächsten Springen kann.",
+  "platformer": "Platformer",
+  "point_and_click": "Point and Click",
+  "point_and_click_desc": "Ein Spiel bei dem der Spieler Gegenstände finden und Rätsel lösen muss.",
+  "graphics_designer": "Grafik Designer",
+  "graphics_designer_desc": "Erlaubt es euch, Grafiken hoch zu laden und zu verändern. Ihr könnt in der Vorschau ansehen, wie die Grafiken im Spiel aussehen.",
+  "sound_designer": "Sound Designer",
+  "sound_designer_desc": "Entscheide, welcher Ton wann abgespielt wird.",
+  "level_designer": "Level Designer",
+  "level_designer_desc": "Verändere Level und füge neue hinzu",
+  "mechanics_designer": "Game Mechanics Designer",
+  "mechanics_designer_desc": "Konfiguriere die Spiellogik und ändere Parameter des Spieles.",
+  "no_games": "Du hast noch kein Spiel erstellt. Zeit für ein neues Spiel!",
+  "Game Designer": "Spiel Designer",
+  "switch language": "Sprache wählen",
+  "new_game": "Wähle eine Vorlage aus um ein neues Spiel zu erstellen."
+}

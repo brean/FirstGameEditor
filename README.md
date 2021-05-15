@@ -1,46 +1,41 @@
-# Getting Started with Create React App
+# Game Designer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![MIT License](https://img.shields.io/github/license/brean/puppy-search-brawler)
 
-## Available Scripts
+## About
 
-In the project directory, you can run:
+### My First Game 🇬🇧
 
-### `yarn start`
+A very warm welcome to the world of game development! 🎮
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This web project should help you create your first game prototype in only a
+few minutes.
+Completely without coding. 👨‍💻
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+You start by selecting one of a few game templates you can extend.
 
-### `yarn test`
+Change everything you want, make it your own game 🦸! Draw your own graphics and
+change them, create new level or change parameter like the game speed.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+----
 
-### `yarn build`
+### Mein erstes Spiel 🇩🇪
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Herzlich Willkommen in der Welt der Spieleentwicklung! 🎮
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Diese Website soll euch helfen, einen ersten Spieleprototypen in nur wenigen
+Minuten zu entwickeln.
+Ganz ohne zu programmieren. 👨‍💻
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Ihr startet, indem ihr eine der Spielevorlagen auswählt.
 
-### `yarn eject`
+Verändert die Vorlage wie ihr wollt und macht es zu eurem Spiel 🦸!
+Ändert die Level ab, wie ihr möchtet, ihr könnt auch einfach die Grafiken
+austauschen oder parameter wie die Geschwindigkeit des Spiels verändern oder
+oder neue Level hinzufügen.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Technical information
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Some information if you like to extend this project:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+[This page is build using react, see this info page](README_react.md)

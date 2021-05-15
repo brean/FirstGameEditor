@@ -1,0 +1,58 @@
+version: '3'
+
+services:
+  mongo-express:
+    image: mongo-express
+    # no build
+    container_name: game_designer_mongodb_express
+    ports:
+      - 8081:8081
+    depends_on:
+      - mongo
+    environment:
+      ME_CONFIG_MONGODB_SERVER: "game_designer_mongo_container"
+      ME_CONFIG_MONGODB_PORT: "27017"
+
+  mongo:
+    image: mongo:4
+    container_name: game_designer_mongo_container
+    volumes:
+      - ./docker/mongo/volumes/data:/data/db:z
+    expose:
+      - 27017
+
+  backend-dev:
+    image: brean/typescript-express-mongodb
+    build:
+      context: ../server/
+      dockerfile: ./Dockerfile
+    user: node
+    environment:
+      MONGO_URI: mongodb://mongo:27017
+      EXPRESS_PORT: 4000
+    volumes:
+      - ../server/src:/home/node/app/src:z
+      - ../server/tsconfig.json:/home/node/app/tsconfig.json:z
+    command: ["npm", "run", "nodemon"]
+    depends_on: 
+      - mongo
+    ports:
+      - 4000:4000
+    
+  frontend-dev:
+    build:
+      context: ../client/
+      dockerfile: ./Dockerfile
+    environment:
+      BACKEND: http://backend-dev:4000/
+      PORT: 3000
+    user: node
+    volumes:
+      - ../client/src:/home/node/app/src:z
+      - ../client/public:/home/node/app/public:z
+      - ../client/tsconfig.json:/home/node/app/tsconfig.json:z
+    command: ["npm", "run", "start"]
+    depends_on:
+      - backend-dev
+    ports:
+      - 3000:3000

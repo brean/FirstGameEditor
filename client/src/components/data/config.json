@@ -1,0 +1,41 @@
+{
+  "languages": {
+    "de-DE": {
+      "icon": "🇩🇪",
+      "name": "Deutsch"
+    },
+    "en-UK": {
+      "icon": "🇬🇧",
+      "name": "English"
+    }
+  },
+  "game_templates": [
+    {
+      "name": "jump_and_run"
+    },
+    {
+      "name": "point_and_click"
+    }
+  ],
+  "editor": [
+    {
+      "name": "graphics_designer",
+      "subs": ["picture_files", "animations", "graphic_actions"]
+    },
+    {
+      "name": "sound_designer",
+      "subs": ["audio_files", "sound_actions"]
+    },
+    {
+      "name": "level_designer",
+      "subs": ["level_overview", "level_items"]
+    },
+    {
+      "name": "mechanic_designer",
+      "subs": ["player", "events", "custom_scripts"]
+    },
+    {
+      "name": "game_preview"
+    }
+  ]
+}

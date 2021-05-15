@@ -1,0 +1,19 @@
+{
+  "jump_and_run": "Jump and Run",
+  "jump_and_run_desc": "A classic game type where the player jumps from one platform to the next",
+  "platformer": "Platformer",
+  "point_and_click": "Point and Click",
+  "point_and_click_desc": "A classic game type where the player needs to collect items and answer questions.",
+  "graphics_designer": "Graphics Designer",
+  "graphics_designer_desc": "Allows you to upload and manipulate graphics, preview your art in game",
+  "sound_designer": "Sound Designer",
+  "sound_designer_desc": "Select which audio should play when.",
+  "level_designer": "Level Designer",
+  "level_designer_desc": "Modify and add Level",
+  "mechanics_designer": "Game Mechanics Designer",
+  "mechanics_designer_desc": "configure the logic of the game and change game play features.",
+  "no_games": "You don't have a game yet, time to create a new one!",
+  "Game Designer": "Game Designer",
+  "switch language": "switch language",
+  "new_game": "Select a template to create a new game."
+}

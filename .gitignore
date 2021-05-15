@@ -21,3 +21,15 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# includes MongoDB-password!
+.env
+
+# testing database
+/dev_env/docker/mongo/volumes/data
+
+# local installations
+server/node_modules/
+client/node_modules/
+
+.vscode/
